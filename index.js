@@ -14,3 +14,11 @@ function convertArabicNumberToRomanNumber (numberToConvert) {
     }
     return Array(+numerical_symbol.join("") + 1).join("M") + romanNumber;
 }
+
+
+
+document.querySelector("#update").addEventListener("click", convert);
+
+function convert(){
+    document.getElementById("resultat").innerHTML = convertArabicNumberToRomanNumber(document.getElementById("number").value);
+}
