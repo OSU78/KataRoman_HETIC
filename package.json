@@ -1,0 +1,11 @@
+{
+  "name": "kataroman_hetic",
+  "version": "1.0.0",
+  "description": "Ce projet est un d'équipe (HETIC MT5) qui a pour but de développer une application simple permettant de convertir des nombres arabes en chiffres romains.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
