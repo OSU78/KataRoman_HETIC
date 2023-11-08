@@ -14,6 +14,7 @@
 
             }
             .card {
+                outline: 2px solid #25c82524;
                 display: flex;
                 justify-content: center;
                 align-items: center;
