@@ -54,10 +54,11 @@
                 padding: 10px;
                 margin: 5px;
             }
-            input[type="number"]:focus{
+            input[type="text"]:focus{
                 outline: 3px solid #911af9;
             }
-            input[type="number"] {
+            input[type="text"] {
+                text-transform: uppercase;
                 width: 200px;
                 height: 20px;
                 border-radius: 7px;
