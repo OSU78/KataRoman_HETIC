@@ -1,5 +1,3 @@
-//
-
 function isValidRomanNumber(romanNumber) {
     console.log(romanNumber);
     // Expression régulière pour valider un nombre romain
@@ -11,7 +9,8 @@ function isValidRomanNumber(romanNumber) {
 
 
 
-export function convertArabicNumberToRomanNumber (numberToConvert) {
+module.exports.convertArabicNumberToRomanNumber =(numberToConvert)=> {
+    console.log("arabic number to convert romain")
     if (isNaN(numberToConvert)){
         return "veuillez rentrer un nombre valide";
     }
@@ -27,7 +26,8 @@ export function convertArabicNumberToRomanNumber (numberToConvert) {
     return Array(+numerical_symbol.join("") + 1).join("M") + romanNumber;
 }
 
-function convertRomanNumberToArabicNumber(romanNumber) {
+module.exports.convertRomanNumberToArabicNumber=(romanNumber) =>{
+    console.log("convertRomanNumberToArabicNumber")
     if (!isValidRomanNumber(romanNumber)){
         return "veuillez rentrer un nombre valide";
     }
